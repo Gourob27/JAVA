@@ -82,3 +82,28 @@ class BabyDog extends Dog{
         f.setVisible(true);   
     }  
     } */ 
+    
+        ///interface
+    /*interface AnimalEat {
+        void eat();
+    }
+    interface AnimalTravel{
+        void b();
+    }
+    class Animal implements AnimalEat,AnimalTravel{
+        public void eat(){
+            System.out.println("Eating");
+        }
+        public void b(){
+            System.out.println("Animal");
+        }
+    }
+   public class gg{
+       public static void main(String args[]) {
+           Animal a=new Animal();
+           a.eat();
+           a.b();
+           
+       }
+   }*/
+
