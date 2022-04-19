@@ -1,0 +1,84 @@
+///Single inheritance
+/*class Animal{  
+    void eat(){System.out.println("eating...");}  
+    }  
+    class Dog extends Animal{  
+    void bark(){System.out.println("barking...");}  
+    }  
+    class gg{  
+    public static void main(String args[]){  
+    Dog d=new Dog();  
+    d.bark();  
+    d.eat();  
+    }} */ 
+
+///Single inheritance using scanner class
+
+/*import java.util.Scanner;
+class Animal{  
+    void eat(){
+ Scanner input = new Scanner(System.in);
+        System.out.println("Enter");
+        String something = input.nextLine();
+        System.out.println("Animal" + something);}  
+    }  
+    class Dog extends Animal{ void bark(){ 
+    Scanner input = new Scanner(System.in);
+            System.out.println("Enter");
+            String something = input.nextLine();
+            System.out.println("Animal" + something);}  
+    }  
+    class gg{  
+    public static void main(String args[]){  
+    Dog d=new Dog();  
+    d.bark();  
+    d.eat();  
+    }} */
+
+/// lab on multilevel inheritance
+
+/*import java.util.Scanner;
+class Animal {
+    void eat(){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter");
+        String something = input.nextLine();
+        System.out.println("Animal" + something);}
+}
+class Dog extends Animal{
+    void bark(){ 
+        Scanner input = new Scanner(System.in);
+                System.out.println("Enter");
+                String something = input.nextLine();
+                System.out.println("Dog" + something);}
+
+}
+class BabyDog extends Dog{
+
+    void weep(){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter");
+        String something = input.nextLine();
+        System.out.println("Weep" + something);}
+    }
+    class gg{  
+        public static void main(String args[]){  
+            BabyDog d=new BabyDog();  
+            d.weep();
+            d.bark();
+            d.eat();
+        }
+    }*/
+    ////Create jbutton
+   /* import javax.swing.*;    
+    public class gg {  
+    public static void main(String[] args) {  
+        JFrame f=new JFrame("Button Example");  
+        JButton b=new JButton("hello");  
+        b.setBounds(50,100,95,30);  
+        f.add(b);  
+        f.setSize(400,400);  
+        f.setLayout(null);  
+        f.setVisible(true);   
+    }  
+    } */ 
